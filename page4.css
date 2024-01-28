@@ -1,0 +1,64 @@
+.header{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.div-rules{
+    display: flex;
+    position: relative;
+    height: 250px;
+    width: 140px;
+    background-color: blue;
+    border-radius: 5%;
+    justify-content: center;
+    margin: 10px;
+}
+.img-rules{
+    height: 40px;
+    position: absolute;
+    justify-content: center;
+    top: 40px;
+}
+.p-rules{
+    display: flex;
+    position: absolute;
+    bottom: 70px;
+}
+.a-rules{
+    display: flex;
+    position: absolute;
+    bottom: 60px;
+    background-color: brown;
+    height:20px;
+    width: 45px;
+    border-radius: 5px;
+    justify-content: center;
+    color: black;
+}
+.baba{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.sec-p{
+    border: 1px inset black ;
+    border-radius: 5px;
+    display: flex;
+    /* width: fit-content; */
+    padding: 20px 30px 0 30px ;
+    
+    
+}
+.p-p{
+    border-left: 1px inset black;
+    position: relative;
+}
+.ddd{
+    justify-content: center;
+    display: flex;
+    
+}
+section > h3 {
+    display: flex;
+    align-self: center;
+}

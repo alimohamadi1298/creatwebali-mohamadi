@@ -1,0 +1,132 @@
+*{
+    
+
+}
+
+.header{
+    display: flex;
+    justify-content: space-evenly;
+}
+.boarder{
+    border: 1px inset black ;
+    padding: 30px 20px;
+    margin: 60px 30px;
+}
+
+.div-discrip{
+display: flex;
+position: relative;
+height: 250px;
+width: 170px;
+background-color: blue;
+border-radius: 5%;
+justify-content: center;
+}
+.p1-discrip {
+    display: flex;
+background-color: goldenrod;
+position: absolute;
+left: 37px;
+font-weight: bold;
+font-size: small;
+height:80px;
+width: 80px;
+border-radius: 50px 0px 50px 50px;
+align-items: center;
+justify-content: center;
+}
+.p2-discrip{
+    display: flex;
+    position: absolute;
+    bottom: 70px;
+}
+.p3-discrip{
+    display: flex;
+    position: absolute;
+    bottom: 60px;
+    background-color: brown;
+    height:20px;
+    width: 45px;
+    border-radius: 5px;
+    justify-content: center;
+    color: black;
+}
+.div-goals{
+    display: flex;
+position: relative;
+height: 250px;
+width: 170px;
+background-color: blue;
+border-radius: 5%;
+justify-content: center;
+}
+.img-goals{
+    height: 40px;
+    position: absolute;
+    justify-content: center;
+    top: 40px;
+}
+.p-goals{
+    display: flex;
+    position: absolute;
+    bottom: 70px;
+}
+.a-goals{
+    display: flex;
+    position: absolute;
+    bottom: 60px;
+    background-color: brown;
+    height:20px;
+    width: 45px;
+    border-radius: 5px;
+    justify-content: center;
+    color: black;
+}
+.div-rules{
+    display: flex;
+    position: relative;
+    height: 250px;
+    width: 170px;
+    background-color: blue;
+    border-radius: 5%;
+    justify-content: center;
+}
+.img-rules{
+    height: 40px;
+    position: absolute;
+    justify-content: center;
+    top: 40px;
+}
+.p-rules{
+    display: flex;
+    position: absolute;
+    bottom: 70px;
+}
+.a-rules{
+    display: flex;
+    position: absolute;
+    bottom: 60px;
+    background-color: brown;
+    height:20px;
+    width: 45px;
+    border-radius: 5px;
+    justify-content: center;
+    color: black;
+}
+.baba{
+    display: flex;
+    justify-content: space-evenly;
+}
+@media screen and (max-width: 360px){
+    .media {
+        width: 60px;
+        font-size: smaller;
+    }
+    .p1-discrip{
+        width: 40px;
+        font-size: 0.3rem;
+    }
+    .header{
+        font-size: 0.5rem;
+    }
+}
